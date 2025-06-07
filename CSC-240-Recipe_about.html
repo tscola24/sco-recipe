@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="about.js" defer></script>
+    <script src = "darkmode.js" defer></script>
+</head>
+<body>
+
+     <nav>
+        <a href="CSC-240-Recipe_intro.html"><button>Home</button></a>
+        <a href="CSC-240-Recipe_Main.html"><button>Recipes</button></a>
+        <a href="CSC-240-Recipe_about.html"><button>About</button></a>
+        <button class = "dark">Dark Mode</button>
+    </nav>
+    <h1 class="heading">About</h1>
+    <div class = "textbox">
+        <p>Author: tscola24<br>
+        Contact information:<br>
+        crackergram623@gmail.com
+        </p>
+
+        <form id="contact" method = "post">
+            <p>Name:
+                <input id="name" required>
+            </p>
+            <p>Email:
+                <input type="email" id="email" required>
+            </p>
+            <p>To Send:
+                <textarea id="toSend" rows = "1" required></textarea>
+            </p>
+            <button type="submit" id="submit">Send Message</button>
+            <output id="output"></output>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Styles.css">
+        <script src = "main.js" defer> </script>
+        <script src = "darkmode.js" defer></script>
+    </head>
+    
+    <body>
+        <nav> <a href = "CSC-240-Recipe_intro.html">
+                <button> Home</button>
+            </a>
+            <a href = "CSC-240-Recipe_Main.html">
+                <button> Recipes</button>
+            </a>
+            <a href = "CSC-240-Recipe_about.html">
+                <button> About</button>
+            </a>
+            <button class = "dark">Dark Mode</button>
+        </nav>
+        <h1 class = "heading">
+            Recipes
+        </h1>
+        
+        <button id = "filter">Filters
+        </button>
+       
+        <div class = "recipe_container">
+            
+            <div class = "recipe_card" data-category = "desserts">
+                
+               
+                <a class = "recipe_link" href= "CSC-240-Recipe_cookie.html">
+                <img class = "recipe_card_images" src = "Scookie_2.jpg" alt = "Picture of some scookies">
+                </a>
+                 <h3 class = "recipe_card_header">Scookies</h3>
+                <button class = "recipe_dropdown_button" data-category = "scookie">Info ^</button>
+                <p class = "recipe_dropdown" data-category = "scookie">Cookies with butterscotch and chocolate chips -- Makes 1 batch</p>
+            </div>
+        
+        
+            <div class = "recipe_card" data-category = "dinners">
+                
+                <a class = "recipe_link" href = "CSC-240-Recipe_burger.html">
+                <img class = "recipe_card_images" src = "Scurkey_Burgers.jpg" alt = "Picture of turkey burgers">
+                </a>
+                <h3 class = "recipe_card_header">Turkey Burgers</h3>
+                <button class = "recipe_dropdown_button" data-category = "turkey-burger">Info ^</button>
+                <p class = "recipe_dropdown" data-category = "turkey-burger">Thick Turkey Burgers -- Makes 4 Burgers</p>
+            </div>
+        
+        </div>
+        <br>
+    </body>
+
+
+
+
+</html>
